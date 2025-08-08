@@ -6,7 +6,7 @@ from langchain_ollama import OllamaEmbeddings
 
 # Streamlit setup
 st.set_page_config(page_title="InfoGenie", layout="wide")
-st.title("InfoGenie - Ask Your Questions About Valtech")
+st.title("InfoGenie - Ask Your Questions")
 
 VECTOR_STORE_DIR = "faiss_index"
 embedding = OllamaEmbeddings(model="llama3")
